@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: auto;
+    align-items: center;
+}
+
+.header__logo img {
+    width: 1.5rem;
+}
+
+.header__nav ul{
+    display: flex;
+    list-style: none;
+}
+
+.nav_item {
+    margin: 0 0.4rem;
+    padding: 0.4rem;
+    font-size: 1.8rem;
+}
