@@ -72,6 +72,7 @@ html {
     justify-content: space-evenly;
     background-color: #222;
     align-items: baseline;
+    padding: 0.3rem 0;
 }
 
 .intro__img{
@@ -102,6 +103,226 @@ html {
 }
 
 .intro__content p{
+    font-size: 1.2rem;
+    text-align: justify;
+    margin: 0 0.5rem;
+}
+
+/*Main styles - cdmx*/
+
+.cdmx {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: azure;
+    align-items: baseline;
+    padding: 0.3rem 0;
+}
+
+.cdmx__img{
+    width: 50%;
+    height: auto;
+    margin: auto 0;
+    padding: 0.5rem;
+    background: rgba(255, 255, 255, 0.32);
+    border-radius: 1.6rem;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.4px);
+}
+
+.cdmx__img img{
+    width: 15rem;
+    border-radius: 0.2rem;
+}
+
+.cdmx__content {
+    color: #222;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cdmx__content h3{
+    font-size: 2rem;
+    text-align: center;
+    margin: 0.5rem 0;
+}
+
+.cdmx__content p{
+    font-size: 1.2rem;
+    text-align: justify;
+    margin: 0 0.5rem;
+}
+
+/*Main styles - guanajuato*/
+
+.guanajuato {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    background-color: #222;
+    align-items: baseline;
+    padding: 0.3rem 0;
+}
+
+.guanajuato__img{
+    width: 50%;
+    height: auto;
+    margin: auto 0;
+    padding: 0.5rem;
+    background: rgba(255, 255, 255, 0.32);
+    border-radius: 1.6rem;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.4px);
+}
+
+.guanajuato__img img{
+    width: 15rem;
+    border-radius: 0.2rem;
+}
+
+.guanajuato__content {
+    color: azure;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.guanajuato__content h3{
+    font-size: 2rem;
+    text-align: center;
+    margin: 0.5rem 0;
+}
+
+.guanajuato__content p{
+    font-size: 1.2rem;
+    text-align: justify;
+    margin: 0 0.5rem;
+}
+
+/*Main styles - jalisco*/
+
+.jalisco {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: azure;
+    align-items: baseline;
+    padding: 0.3rem 0;
+}
+
+.jalisco__img{
+    width: 50%;
+    height: auto;
+    margin: auto 0;
+    padding: 0.5rem;
+    background: rgba(255, 255, 255, 0.32);
+    border-radius: 1.6rem;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.4px);
+}
+
+.jalisco__img img{
+    width: 15rem;
+    border-radius: 0.2rem;
+}
+
+.jalisco__content {
+    color: #222;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.jalisco__content h3{
+    font-size: 2rem;
+    text-align: center;
+    margin: 0.5rem 0;
+}
+
+.jalisco__content p{
+    font-size: 1.2rem;
+    text-align: justify;
+    margin: 0 0.5rem;
+}
+
+/*Main styles - mazatlan*/
+
+.mazatlan {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    background-color: #222;
+    align-items: baseline;
+    padding: 0.3rem 0;
+}
+
+.mazatlan__img{
+    width: 50%;
+    height: auto;
+    margin: auto 0;
+    padding: 0.5rem;
+    background: rgba(255, 255, 255, 0.32);
+    border-radius: 1.6rem;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.4px);
+}
+
+.mazatlan__img img{
+    width: 15rem;
+    border-radius: 0.2rem;
+}
+
+.mazatlan__content {
+    color: azure;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.mazatlan__content h3{
+    font-size: 2rem;
+    text-align: center;
+    margin: 0.5rem 0;
+}
+
+.mazatlan__content p{
+    font-size: 1.2rem;
+    text-align: justify;
+    margin: 0 0.5rem;
+}
+
+/*Main styles - chiapas*/
+
+.chiapas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: azure;
+    align-items: baseline;
+    padding: 0.3rem 0;
+}
+
+.chiapas__img{
+    width: 50%;
+    height: auto;
+    margin: auto 0;
+    padding: 0.5rem;
+    background: rgba(255, 255, 255, 0.32);
+    border-radius: 1.6rem;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.4px);
+}
+
+.chiapas__img img{
+    width: 15rem;
+    border-radius: 0.2rem;
+}
+
+.chiapas__content {
+    color: #222;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.chiapas__content h3{
+    font-size: 2rem;
+    text-align: center;
+    margin: 0.5rem 0;
+}
+
+.chiapas__content p{
     font-size: 1.2rem;
     text-align: justify;
     margin: 0 0.5rem;
