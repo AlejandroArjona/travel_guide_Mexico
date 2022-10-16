@@ -14,8 +14,40 @@ html {
     display: flex;
     flex-direction: column;
     width: 100vw;
-    height: auto;
+    height: 55vh;
+    justify-content: center;
+    justify-items: center;
+    background-image: url(./images/flags/small/pexels-hugo-entrepreneur-3800834.jpg);
+    background-color: #222;
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content: space-around;
+    
+}
+.header__elements {
+    
+    display: flex;
+    flex-direction: column;
     align-items: center;
+    height: fit-content;
+    background: rgba(255, 255, 255, 0.32);
+    margin: 0 auto;
+    border-radius: 1.6rem;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.4px);
+    
+}
+
+.header__title {
+    font-family: Arial, Helvetica, sans-serif;
+    color: azure;
+    text-align: center;
+    font-size: 3rem;
+    background: rgba(255, 255, 255, 0.32);
+    margin: 0 auto;
+    border-radius: 1.6rem;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.4px);
 }
 
 .header__logo img {
