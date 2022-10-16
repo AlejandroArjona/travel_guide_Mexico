@@ -21,8 +21,7 @@ html {
     background-color: #222;
     background-repeat: no-repeat;
     background-position: center;
-    justify-content: space-around;
-    
+    justify-content: space-around;    
 }
 .header__elements {
     
@@ -63,4 +62,47 @@ html {
     margin: 0 0.4rem;
     padding: 0.4rem;
     font-size: 1.8rem;
+}
+
+/*Main styles - Intro*/
+
+.intro {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    background-color: #222;
+    align-items: baseline;
+}
+
+.intro__img{
+    width: 50%;
+    height: auto;
+    margin: auto 0;
+    padding: 0.5rem;
+    background: rgba(255, 255, 255, 0.32);
+    border-radius: 1.6rem;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.4px);
+}
+
+.intro__img img{
+    width: 15rem;
+    border-radius: 0.2rem;
+}
+
+.intro__content {
+    color: azure;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.intro__content h3{
+    font-size: 2rem;
+    text-align: center;
+    margin: 0.5rem 0;
+}
+
+.intro__content p{
+    font-size: 1.2rem;
+    text-align: justify;
+    margin: 0 0.5rem;
 }
