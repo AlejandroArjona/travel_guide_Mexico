@@ -327,3 +327,169 @@ html {
     text-align: justify;
     margin: 0 0.5rem;
 }
+
+/*Main styles - food*/
+
+.food{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: #222;
+    padding: 0.3rem 0;
+}
+
+.about_food{
+    background: rgba(255, 255, 255, 0.32);
+    border-radius: 1.6rem;
+    box-shadow: 0 0.4rem 3rem rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(0.64rem);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3rem 20vw 0;
+}
+
+.about_food__img{
+    padding: 0.5rem;
+}
+
+.about_food__img img{
+    width: 15rem;
+    border-radius: 0.2rem;
+}
+
+.about_food__content{
+    margin: 0.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.about_food__content h3{
+    font-size: 2rem;
+    text-align: center;
+}
+
+.about_food__content p{
+    font-size: 1.1rem;
+    text-align: justify;
+}
+
+/*Main styles - taco*/
+
+.taco{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: #222;
+    padding: 0.3rem 0;
+}
+
+.taco_div{
+    background: rgba(255, 255, 255, 0.32);
+    border-radius: 1.6rem;
+    box-shadow: 0 0.4rem 3rem rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(0.64rem);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3rem 20vw 0;
+}
+
+.taco_div__img{
+    padding: 0.5rem;
+}
+
+.taco_div__img img{
+    width: 15rem;
+    border-radius: 0.2rem;
+}
+
+.taco_div__content{
+    margin: 0.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.taco_div__content h3{
+    font-size: 2rem;
+    text-align: center;
+}
+
+.taco_div__content p{
+    font-size: 1.1rem;
+    text-align: justify;
+}
+
+/*Main styles - pozole*/
+
+.pozole{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: #222;
+    padding: 0.3rem 0;
+}
+
+.pozole_div{
+    background: rgba(255, 255, 255, 0.32);
+    border-radius: 1.6rem;
+    box-shadow: 0 0.4rem 3rem rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(0.64rem);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3rem 20vw 0;
+}
+
+.pozole_div__img{
+    padding: 0.5rem;
+}
+
+.pozole_div__img img{
+    width: 15rem;
+    border-radius: 0.2rem;
+}
+
+.pozole_div__content{
+    margin: 0.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.pozole_div__content h3{
+    font-size: 2rem;
+    text-align: center;
+}
+
+.pozole_div__content p{
+    font-size: 1.1rem;
+    text-align: justify;
+}
+
+/*contact styles*/
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: #222;
+    padding: 0.3rem 0;
+}
+
+.net{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    justify-items: center;
+    margin: 0.5rem 0;
+}
+
+.net img{
+    width: 5rem;
+    filter: invert();
+}
+
+.contact h3{
+    font-size: 2rem;
+    color: azure;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 0.5rem 0;
+}
