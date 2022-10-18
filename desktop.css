@@ -1,0 +1,20 @@
+.main {
+    background-color: #222;
+}
+
+.intro {
+    max-width: 76.8rem;
+    margin: 0 auto;
+}
+
+.about_food{
+    margin: 3rem 30vw;
+}
+
+.taco{
+    margin: 3rem 30vw;
+}
+
+.pozole{
+    margin: 3rem 30vw;
+}
